@@ -1,0 +1,3 @@
+For a Bachelor project, we looked at the problem of how contracts for higher-order functions in Racket would sometimes give different results when applied in different orders. We started with the λ-calculus for the evaluation of expressions including contracts and modified it to solve this problem.
+
+In order to refine the rules and make sure that it was working properly, I built a proof of concept evaluator and some sample expressions and contracts to test. This is the result. Special attention was given to displaying the expressions in a way that could be followed in a step-by-step manner to verify that it aligned with what happened when we worked it out by hand.
